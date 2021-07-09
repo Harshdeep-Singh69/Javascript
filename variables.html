@@ -1,0 +1,30 @@
+<!-- Variables can be declared in  3 different ways:
+	1- var:we can declare it again and we can overwrite it
+	2-let:we can overwrite it but we cant declare the value again
+	3-const : we cant overwrite and we cant declare it as well
+	-->
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		var a = "Hello world"
+		var a="Hi" 						//declaring the variable again
+		a="Hey"						   //overwriting the value
+		
+		let b=30+6;
+		const c=true;
+		document.write(a);
+		console.log(a);
+		document.write("<br>"+b);
+		console.log( b);
+		document.write("<br>" + c);
+		console.log(c);
+		document.write("<br>" + typeof a,"<br>" + typeof b,"<br>" + typeof c);
+	</script>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
