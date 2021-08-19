@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#aa{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="aa">Hello</div>
+	<button onclick="red()">Red</button><br>
+	<button onclick="green()">Green</button><br>
+	<button onclick="blue()">Blue</button>
+
+
+	<script type="text/javascript">
+
+		function red(){
+			document.querySelector("body").style.backgroundColor="red";
+			document.querySelector("#aa").style.backgroundColor="black";
+
+		}
+		function green(){
+			document.querySelector("body").style.backgroundColor="green";
+			document.querySelector("#aa").style.backgroundColor="yellow";
+
+		}
+		function blue(){
+			document.querySelector("body").style.backgroundColor="blue";
+			document.querySelector("#aa").style.backgroundColor="pink";
+
+		}
+	</script>
+</body>
+</html>

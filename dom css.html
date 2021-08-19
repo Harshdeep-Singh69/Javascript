@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#aa{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div onmouseenter="grey()" onmouseleave="pink()" id="aa"></div>
+	<input id="ab" onkeydown="greyinp()" type="text" name="">
+<!--	<button onclick="abhijeet()">Satyam</button>-->
+	<script type="text/javascript">
+			function grey(){
+				document.querySelector("#aa").style.backgroundColor="grey";
+				}
+				function greyinp(){
+				document.querySelector("#ab").style.backgroundColor="grey";
+				}
+				/* document.querySelector("#aa").style.color="white";*/
+			
+				function pink(){
+					document.querySelector("#aa").style.backgroundColor="pink";
+				}
+			</script>
+</body>
+</html>
